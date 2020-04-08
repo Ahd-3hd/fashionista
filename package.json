@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development --watch ./djreact/frontend/src/index.js --output ./djreact/frontend/static/frontend/main.js",
-    "build": "webpack --mode production ./djreact/frontend/src/index.js --output ./djreact/frontend/static/frontend/main.js"
+    "build": "webpack --mode production --optimize-minimize ./djreact/frontend/src/index.js --output ./djreact/frontend/static/frontend/main.js"
   },
   "repository": {
     "type": "git",
