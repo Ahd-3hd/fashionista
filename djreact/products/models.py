@@ -5,8 +5,8 @@ from django.contrib.auth.models import User
 
 class Product(models.Model):
     name = models.CharField(max_length=100)
-    message = models.CharField(max_length=500, blank=True)
-    image = models.ImageField()
+    product_type = models.CharField(max_length=100)
+    img = models.ImageField()
     # owner = models.ForeignKey(
     #     User, related_name='products', on_delete=models.CASCADE, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
