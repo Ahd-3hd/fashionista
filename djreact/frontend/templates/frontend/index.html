@@ -1,3 +1,4 @@
+{%load static%}
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -5,10 +6,10 @@
         <menta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Products</title>
+        <link rel='stylesheet' href="{% static 'frontend/index.css' %}">
     </head>
     <body>
         <div id="app"></div>
-        {%load static%}
         <script src="{% static "frontend/main.js"%}"></script>
     </body>
 </html>

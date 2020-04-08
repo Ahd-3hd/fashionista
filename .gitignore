@@ -2,10 +2,10 @@ node_modules
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-db.sqlite3
+# db.sqlite3
 migrations/
-media/
-settings.py
+# media/
+# settings.py
 # C extensions
 *.so
 
