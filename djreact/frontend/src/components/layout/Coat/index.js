@@ -43,7 +43,7 @@ const Coat = () => {
   useEffect(() => {
     setNumOfChildren(slideWrap.current.childNodes.length - 1);
     let observer = new IntersectionObserver((el) => {
-      el[0].isIntersecting ? setVisible(true) : setVisible(false);
+      el[0].isIntersecting ? setVisible(true) : null;
     });
     observer.observe(containerRef.current);
   }, [data]);

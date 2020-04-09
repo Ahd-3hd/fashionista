@@ -26,8 +26,6 @@ const Header = () => {
   const [toggleNav, setToggleNav] = useState(true);
   const navShow = useSpring({
     right: toggleNav ? "-100%" : "0%",
-    from: { right: toggleNav ? "0%" : "-100%" },
-    config: config.gentle,
   });
 
   return (
